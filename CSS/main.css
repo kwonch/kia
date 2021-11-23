@@ -62,6 +62,7 @@ a{
     width: 100%;
     height: 950px;
     margin:0 auto;
+   
     
 }
 #slide .slide1{
@@ -72,6 +73,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
     
 }
 #slide .slide_contents_1{
@@ -104,24 +106,99 @@ a{
     font-size: 45px;
 }
 #section1 .section1_contants{
-    width: 1200px;
+   max-width: 1200px;
     height: 100%;
     background-color: burlywood;
     margin:0 auto;
-}
-
-#section1 .section1_contants .car img{
-  
-    
-}
-    
-#section1 .section1_contants .left,.right{
-    width: 80px;
-    height:70px;
-    position: absolute;
+    display: flex;
    
+    align-items: center;
+    
 }
 
+#section1 .section1_contants .car{
+    
+    width: 560px;
+    height: 520px;
+    background-color: brown;
+    border-radius: 30px;      
+    margin-left: 20px;
+    
+}
+
+#section1 .section1_contants .carimg{
+    width: 560px;
+    height: 300px;
+    background:url("../main_img/mohave.jpg")no-repeat center ;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+}
+
+#section1 .section1_contants .carimg2{
+    width: 560px;
+    height: 300px;
+    background:url("../main_img/seltos.jpg")no-repeat center ;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+}
+
+#section1 .section1_contants .carimg3{
+    width: 560px;
+    height: 300px;
+    background:url("../main_img/k3.jpg")no-repeat center ;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;    
+}
+
+#section1 .section1_contants .carimg4{
+    width: 560px;
+    height: 300px;
+    background:url("../main_img/sorento.jpg")no-repeat center ;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;    
+}
+
+#section1 .section1_contants .carimg5{
+    width: 560px;
+    height: 300px;
+    background:url("../main_img/carnival.jpg")no-repeat center ;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;   
+}
+
+#section1 .section1_contants .carimg6{
+    width: 560px;
+    height: 300px;
+    background:url("../main_img/k8.jpg")no-repeat center ;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+}
+
+#section1 .textbox {
+    display: flex;
+    flex-flow:column; 
+    padding: 20px 40px 40px;
+    text-align: center;
+  
+}
+
+#section1 .textbox .title_2{
+    font-size: 20px;
+}
+#section1 .textbox .information{
+    
 }
 
 #section2{
