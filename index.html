@@ -15,14 +15,14 @@
 
         $('.btn1 ').click(function () {
             $('.car li:last').prependTo('.car');
-            $('.car').css('margin-left', -1200);
-            $('.car').stop().animate({ marginLeft: 0 }, 800)
+            $('.car').css('margin-left', -1000);
+            $('.car').stop().animate({ marginLeft: 0 }, 1000)
         });
 
 
 
         $('.btn2 ').click(function () {
-            $('.car').stop().animate({ marginLeft: -1200 }, 800, function () {
+            $('.car').stop().animate({ marginLeft: 1000 }, 1000, function () {
                 $('.car li:first').appendTo('.car');
                 $('.car').css({ marginLeft: 0 });
             });
@@ -78,12 +78,12 @@
       
         <div class="section1_contants">
             <ul class="car">
-                <li ><img src="main_img/carnival.jpg"></li>
-                <li ><img src="main_img/k3.jpg"></li>
-                <li ><img src="main_img/k8.jpg"></li>
-                <li><img src="main_img/mohave.jpg"></li>
-                <li ><img src="main_img/sorento.jpg"></li>
-                <li ><img src="main_img/seltos.jpg"></li>
+                <li class="img1"></li>
+                <li class="img2"></li>
+                <li class="img3"></li>
+                <li class="img4"></li>
+                <li class="img5"></li>
+                <li class="img6"></li>
 
             </ul>
             
@@ -132,14 +132,14 @@
 
         $('.btn1 ').click(function () {
             $('.car li:last').prependTo('.car');
-            $('.car').css('margin-left', -1200);
-            $('.car').stop().animate({ marginLeft: 0 }, 800)
+            $('.car').css('margin-left',-1000 );
+            $('.car').stop().animate({ marginLeft: 0 },750)
         });
 
 
 
         $('.btn2 ').click(function () {
-            $('.car').stop().animate({ marginLeft: -1200 }, 800, function () {
+            $('.car').stop().animate({ marginLeft: -1000 }, 750, function () {
                 $('.car li:first').appendTo('.car');
                 $('.car').css({ marginLeft: 0 });
             });

@@ -96,11 +96,11 @@ a{
 
 
 #section1{
-    width:1200px;
+    width:100%;
     height: auto;
     margin:0 auto;
     background-color: orchid;
-   
+    overflow: hidden;
     position: relative;
 }
 
@@ -113,11 +113,11 @@ a{
 
 
 #section1 .section1_contants{
-    width: 100%;
+    width: 1000px;;
     height: auto;
     background-color: burlywood;
     margin:0 auto;
-  
+    overflow: hidden;
     
     position: relative;
     
@@ -143,7 +143,9 @@ a{
     margin-right: auto;
     margin-left: auto;
     left: 0px;
-     right:1150px;
+     right:900px;
+     bottom:350px;
+     opacity: 0.7;
     
 }
 
@@ -156,9 +158,10 @@ a{
     position: absolute;
     margin-right: auto;
     margin-left: auto;
-    left: 1100px;
+    left: 900px;
      right: 0;
-
+     bottom:350px;
+     opacity: 0.7;
     
 }
     
@@ -167,9 +170,8 @@ a{
 
 
 #section1 .car{
-    width: 7500px;
-    height: 580px;
-    background-color: brown;
+    width: 7000px;
+    height: 700px;
     border-radius: 50px;
     margin:0 auto;
     
@@ -184,18 +186,54 @@ a{
     height: 700px;
     float:left;
     margin:0 auto;
+    
    
 }
-#section1 .car li img{
+#section1 .car .img1{
+    background:url("../main_img/mohave.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+}
+#section1 .car .img2{
+    background:url("../main_img/sorento.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+}
+#section1 .car .img3{
+    background:url("../main_img/seltos.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+}
+#section1 .car .img4{
+    background:url("../main_img/k3.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+}
+#section1 .car .img5{
+    background:url("../main_img/k8.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+}
+#section1 .car .img6{
+    background:url("../main_img/carnival.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+#section .car img{
     width: 100%;
     height: 100%;
     
-    
-    
+   
 }
-
  
- }
+ 
  
 
 #section2{
