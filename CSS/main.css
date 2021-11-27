@@ -1,9 +1,15 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     margin:0;
     padding:0;
     box-sizing: border-box;
-
+    font-family: 'SpoqaHanSansNeo-Regular';
 }
 ul,li,ol{
     list-style: none;
@@ -286,7 +292,7 @@ a{
     width: 100%;
     height: 1240px;
     margin:0 auto;
-    background-color: skyblue;
+    
 }
 
 #section4 .s4_banner{
@@ -295,16 +301,42 @@ a{
     background: url("../main_img/background.jpg") no-repeat center;
     background-size: cover;
     background-position: center;
+   
+}
+#section4 .s4_banner_text{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2em;
+    padding-top:250px;
+   
 }
 
 
 #section4 .s4_bottom{
     width: 1200px;
     height: 600px;
-    background-color: chartreuse;
+   
     margin:0 auto;
+    display: flex;
+    flex-flow:wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    
     
 }
+
+#section4 .s4_box{
+    width: 1060px;
+    height: auto;
+  
+     display: flex;
+     flex-flow:nowrap row;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
 
 #section4 .s4_bo{
     background:url("../main_img/sky.jpg") no-repeat center;
@@ -312,6 +344,7 @@ a{
     background-size: cover;
     width: 417px;
     height: 278px;
+    display: inline-block;
 }
 #section4 .s4_bo2{
     background:url("../main_img/ocean.jpg") no-repeat center;
@@ -319,13 +352,109 @@ a{
     background-size: cover;
     width: 417px;
     height: 278px;
+    display: inline-block;
 }
+
+#section4 .s4_text{
+    width: 480px;
+    height: 207px;
+}
+
+#section4 .s4_text_1{
+    font-size: 15px;
+    line-height: 1.8em;
+    color:rgb(163, 163, 163);
+}
+
+#section4 .line{
+    width: 1200px;
+    border-bottom: 1px solid #e2e2e2;
+    margin:0 auto;
+    padding-top: 20px;
+}
+
 
 #section5{
     width: 100%;
     height: 700px;
     margin: 0 auto;
-    background-color: thistle;
+  
+}
+
+.kia_news
+{
+    width: 1200px;
+    height: 605px;
+  
+    margin:0 auto;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.kia_news1{
+    width: 560px;
+    height: 530px;
+    
+    border-radius: 50px;
+    box-shadow: 0 5px 15px 0px #cccccc;
+}
+#section5 .kia_news1_photo{
+    background: url("../main_img/news.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#section5 .kia_news1_title{
+    padding-top: 25px;
+}
+#section5 .kia_news1_text{
+    line-height: 1.7em;
+}
+
+
+.kia_news2{
+    width: 560px;
+    height: 250px;
+    
+    border-radius: 50px;
+    box-shadow: 0 5px 15px 0px #cccccc;
+    display: flex;
+}
+#section5 .kia_news2_photo2{
+    background:url("../main_img/news2.jpg")no-repeat center;
+    background-size: cover;
+    background-size: center;
+    width: 260px;
+    height:100% ;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#section5 .kia_news2_photo3{
+    background:url("../main_img/news3.jpg")no-repeat center;
+    background-size: cover;
+    background-size: center;
+    width: 260px;
+    height:100% ;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#section5 .kia_news2_text_box{
+    width: 300px;
+    height: 100%;
+}
+#section5 .kia_news2_title{
+    padding-top: 25px;
+}
+#section5 .kia_news2_text2{
+    line-height: 1.7em;
+    font-size: 14px;
 }
 
 footer{
