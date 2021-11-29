@@ -18,7 +18,7 @@ ul,li,ol{
 }
 a{
     text-decoration: none;
-    color: black;
+    
 }
 
 #head{
@@ -462,4 +462,104 @@ footer{
     height: 1000px;
     margin:0 auto;
     background-color: black;
+}
+
+footer .footerlogo {
+    width: 300px;
+    height: 150px;
+   
+    margin:0px auto ;
+}
+footer .footerlogo img{
+   
+    width: 300px;
+    height: 150px;
+   
+    
+}
+footer .line2{
+    width: 1200px;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+    
+    opacity: 0.5;
+}
+
+
+footer .footer_in{
+   max-width: 1200px;
+    height: 500px;
+    margin:0 auto;
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .footer_menu{
+    width: 220px;
+ 
+
+}
+footer .footer_menu li{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.3em;
+    
+}
+footer .footer_menu li a{
+    color:white;
+
+}
+footer .footer_menu li a:hover{
+    color:rgb(255, 205, 113);
+    transition: 0.5s;
+}
+
+
+footer .footer_car{
+    display: flex; 
+    justify-content: space-between;
+    width: 400px;
+}
+
+footer .footer_car li{
+    line-height: 2.3em;
+}
+footer .footer_car li a{
+    color:rgba(255,255,255,0.6);
+}
+footer .footer_car li a:hover{
+    color:rgb(255, 205, 113);
+    transition: 0.5s;
+}
+footer .footer_car .fo_title{
+    color:white;
+    font-weight: bold;
+}
+
+
+footer .footer_in3 .foin3_title{
+    margin:0;
+    color:white;
+}
+footer .footer_in3 li img{
+    float: left;
+    display: block;
+    padding-right: 10;
+  
+}
+
+footer .footer_in3 ul li {
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding-top: 12px;
+    color:white;          
+}
+
+footer .footer_last{
+    width: 1200px;
+    height: 60px;
+    background-color: wheat;
+    margin:0 auto;
 }
