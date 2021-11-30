@@ -28,27 +28,30 @@ a{
     margin:0 auto;
     border-bottom: solid 1px none;
     box-shadow: #767676 0px 0px 10px 0px;
+    overflow: hidden;
+    
 }
 .top{ display: flex;
      
       justify-content: space-evenly;
-      align-items: center;
-        
+      align-items: center;      
 }
 
     
 
 
 #head .logo{
-    height: 75px;
+    height: 100px;
 }
 #head .logo img{
-    height: 75px;  
-    margin-top: 10px;  
+    height:100px;  
+ 
+    
 }
 .navigation{
     width: 530px;
     height: 54px;
+    
 }
 .navigation .list{
     display: flex;
@@ -60,7 +63,15 @@ a{
 .navigation .list li{
    padding:20px;
     text-align: center;
+    font-weight: bold;
    
+}
+#head .navigation a{
+    color:black;
+}
+#head .navigation a:hover{
+    color:tomato;
+    transition: 0.5s;
 }
 
 
@@ -105,7 +116,7 @@ a{
     width:100%;
     height: auto;
     margin:0 auto;
-    background-color: orchid;
+    
     overflow: hidden;
     position: relative;
 }
@@ -121,7 +132,7 @@ a{
 #section1 .section1_contants{
     width: 1000px;;
     height: auto;
-    background-color: burlywood;
+   
     margin:0 auto;
     overflow: hidden;
     
@@ -246,7 +257,7 @@ a{
     width: 100%;
     height: auto;
     margin:0 auto;
-    background-color: paleturquoise;
+   
 }
 
 #section2 .video{
@@ -267,12 +278,12 @@ a{
     width: 100%;
     height: 880px;
     margin: 0 auto;
-    background-color: darkgoldenrod;
+  
 }
 .middle{
     width: 1200px;
     height: 100%;
-    background-color: burlywood;
+   
     margin:0 auto;
     display: flex;
     align-items: center;
@@ -298,10 +309,11 @@ a{
 #section4 .s4_banner{
     width: 100%;
     height: 600px;
-    background: url("../main_img/background.jpg") no-repeat center;
+    background: url("../main_img/background_1.jpg") no-repeat center;
     background-size: cover;
     background-position: center;
-   
+    
+  
 }
 #section4 .s4_banner_text{
     text-align: center;
@@ -459,21 +471,22 @@ a{
 
 footer{
     width: 100%;
-    height: 1000px;
+    height:830px;
     margin:0 auto;
     background-color: black;
 }
 
 footer .footerlogo {
-    width: 300px;
-    height: 150px;
    
-    margin:0px auto ;
+   
+   width: 300px;
+ margin: 0 auto;
 }
 footer .footerlogo img{
    
     width: 300px;
     height: 150px;
+   
    
     
 }
@@ -481,7 +494,7 @@ footer .line2{
     width: 1200px;
     border-bottom: 1px solid white;
     margin: 0 auto;
-    
+   
     opacity: 0.5;
 }
 
@@ -494,6 +507,7 @@ footer .footer_in{
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 
 footer .footer_menu{
@@ -546,7 +560,7 @@ footer .footer_in3 .foin3_title{
 footer .footer_in3 li img{
     float: left;
     display: block;
-    padding-right: 10;
+    padding-right: 10px;
   
 }
 
@@ -559,7 +573,27 @@ footer .footer_in3 ul li {
 
 footer .footer_last{
     width: 1200px;
-    height: 60px;
-    background-color: wheat;
+    height: 60px;   
     margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+footer .last_text2{
+    color:white;
+    font-size: 25px;
+}
+footer .last_img{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;   
+}
+
+footer .last_img img{ 
+  background-color:white;
+  height: 35px;
+    border-radius: 10px;   
+   
+   
+}
+
