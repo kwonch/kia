@@ -59,8 +59,9 @@
                 <li class="img2"></li>
                 <li class="img3"></li>
                 <li class="img4"></li>
-                <li class="img5"></li>
-                <li class="img6"></li>
+                <li class="img5">The Outstanding,<br>The Kia K8 <br>어색하고,낯설고,모든 새로움은 그렇게 시작합니다<br>지금 K8과 낯선 여정을 함께하세요</li>
+                <li class="img6">커넥팅 라이프의 시작, Connecting Hub
+                    The 2022 카니발</li>
 
             </ul>
             
@@ -310,14 +311,14 @@
 
         $('.btn1 ').click(function () {
             $('.car li:last').prependTo('.car');
-            $('.car').css('margin-left',-1000 );
+            $('.car').css('margin-left',-1500 );
             $('.car').stop().animate({ marginLeft: 0 },750)
         });
 
 
 
         $('.btn2 ').click(function () {
-            $('.car').stop().animate({ marginLeft: -1000 }, 750, function () {
+            $('.car').stop().animate({ marginLeft: -1500 }, 750, function () {
                 $('.car li:first').appendTo('.car');
                 $('.car').css({ marginLeft: 0 });
             });
