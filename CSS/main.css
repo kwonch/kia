@@ -90,7 +90,7 @@ a{
     
 }
 #slide .slide1{
-    width: 1500px;
+    width: 1200px;
     height: 100%;
     
     margin:0 auto;
@@ -209,7 +209,7 @@ a{
 
 #section1 .car{
     width:10500px;
-    height: 700px;
+    height: 1000px;
     border-radius: 50px;
     margin:0 auto;
     
@@ -224,7 +224,10 @@ a{
     height: 1000px;
     float:left;
     margin:0 auto;
-    
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+  
    
 }
 #section1 .car .img1{
@@ -447,9 +450,10 @@ a{
 }
 
 #section5 .kia_news1_title{
-    padding-top: 25px;
+    padding: 25px 25px 0px 25px;
 }
 #section5 .kia_news1_text{
+    padding: 0px 25px 0px 25px;
     line-height: 1.7em;
 }
 
@@ -487,6 +491,7 @@ a{
 #section5 .kia_news2_text_box{
     width: 300px;
     height: 100%;
+    padding:0px 25px 0px 25px;
 }
 #section5 .kia_news2_title{
     padding-top: 25px;
@@ -621,7 +626,7 @@ footer .footer_last{
 }
 footer .last_text2{
     color:white;
-    font-size: 25px;
+    font-size: 13px;
 }
 footer .last_img{
     width: 200px;
@@ -631,7 +636,7 @@ footer .last_img{
 
 footer .last_img img{ 
   background-color:white;
-  height: 35px;
+  height: 30px;
     border-radius: 10px;   
    
    
