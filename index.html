@@ -14,7 +14,7 @@
     <header id="head">
         <div class="top">
             <div class="logo">
-             <a href="#"><img src="main_img/logo.jpg" alt="logo"></a>
+             <a href="#"><img src="main_img/logo_2.png" alt="logo"></a>
 
              
             </div>
@@ -34,6 +34,9 @@
 
     <div id="slide">
         <div class="slide1">
+            <div class="main_background">
+            
+            </div>
             <div class="slide_contents">
               <h1 class="slide_contents_1"> Innovation inspird by nature</h1>
 
@@ -46,6 +49,7 @@
                 <img src="main_img/mainbanner.jpg">
             </div>
         </div>
+        
     </div>
 
 
@@ -55,16 +59,16 @@
       
         <div class="section1_contants">
             <ul class="car">
-                <li class="img1">변하지 않는 자신감 -2021 모하비</li>
-                <li class="img2">새로운 시대의 플레이<br>
-                    The 2022 Sorento</li>
-                <li class="img3">하이클래스 소형 SUV, The 2022 셀토스<br>
-                    어반솔리드 디자인, 어드밴스드 드라이빙</li>
-                <li class="img4">나만의 완생을 향해<br>
-                    Keep Your Way, The new K3</li>
-                <li class="img5">The Outstanding,The Kia K8 <br>어색하고,낯설고,모든 새로움은 그렇게 시작합니다<br>지금 K8과 낯선 여정을 함께하세요</li>
-                <li class="img6">커넥팅 라이프의 시작, Connecting Hub<br>
-                    The 2022 카니발</li>
+                <li class="img1"><p class="car_text">변하지 않는 자신감 -2021 모하비</p></li>
+                <li class="img2"><p class="car_text">새로운 시대의 플레이<br>
+                    The 2022 Sorento</p></li>
+                <li class="img3"><p class="car_text">하이클래스 소형 SUV, The 2022 셀토스<br>
+                    어반솔리드 디자인, 어드밴스드 드라이빙</p></li>
+                <li class="img4"><p class="car_text">나만의 완생을 향해<br>
+                    Keep Your Way, The new K3</p></li>
+                <li class="img5"><p class="car_text">The Outstanding,The Kia K8 <br>어색하고,낯설고,모든 새로움은 그렇게 시작합니다<br>지금 K8과 낯선 여정을 함께하세요</p></li>
+                <li class="img6"><p class="car_text">커넥팅 라이프의 시작, Connecting Hub<br>
+                    The 2022 카니발</p></li>
 
             </ul>
             
@@ -96,6 +100,9 @@
                <h1 class="s3_title"> Sustainable mobility</h1> 
                 <p class="infor">기아는 2026년까지 총 11종의 전기차 라인업을 구축할 예정<br>으로, 전동화 미래를 향해 나아가고 있습니다. 그리고 The Kia<br> Concept EV9은 미래 지속가능한 모빌리티를 향한 기아의
                 <br>확고한 의지를 보여줍니다.</p>
+                <button class="learn_more">
+                    더알아보기
+                </button>
             </div>
             <div class="carimg">
                 <img src="main_img/middle.jpg">
@@ -327,6 +334,36 @@
             });
         });
 
+        $(function(){
+    $(window).scroll(function(){
+        var ws=$(this).scrollTop();
+       
+        if(ws>300){
+            $('#section1').css("transform","translateY(0px)").css("opacity","1");
+        }
+        
+        if(ws>1300){
+            $('#section2').css("transform","translateY(0px)").css("opacity","1");
+        }
+        
+        if(ws>2200){
+            $('#section3').css("transform","translateY(0px)").css("opacity","1");
+        }
+        
+        if(ws>3000){
+            $('#section4').css("transform","translateY(0px)").css("opacity","1");
+        }
+        
+        if(ws>3900){
+            $('#section5').css("transform","translateY(0px)").css("opacity","1");
+        }
+        
+        if(ws>1700){
+            $('.p06').css("transform","translateY(0px)").css("opacity","1");
+        }
+
+    });
+});
 
 
     </script>

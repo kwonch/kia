@@ -72,7 +72,7 @@ a{
    
 }
 #head .navigation a{
-    color:black;
+    color:white;
     transition: all 0.5s;
 }
 #head .navigation a:hover{
@@ -104,11 +104,12 @@ a{
     margin:0px;
     font-size: 55px;
     text-align: center;
-    
+    color:white;
 }
 #slide .slide_contents_2{
     text-align: center;
     font-size: 20px;
+    color:white;
 }
 #slide .slide_img{
     width: 680px;
@@ -130,22 +131,39 @@ a{
     
 }
 
+#slide .main_background{
+    background:url("../main_img/main_background.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    
+}
+
 
 
 
 #section1{
     width:100%;
-    height: auto;
+    height:1200px;
     margin:0 auto;
-    
+    margin-top: 200px;
     overflow: hidden;
     position: relative;
+    transform: translateY(150px); transition: all 2s; opacity: 0;
+        
+        
+        
 }
 
 #section1 .section1_title{
-    margin-top: 0px;
+   
     text-align: center;
     font-size: 45px;
+    
 }
 
 
@@ -225,7 +243,7 @@ a{
     float:left;
     margin:0 auto;
     color:white;
-    font-size: 23px;
+    font-size: 35px;
     font-weight: bold;
   
    
@@ -267,13 +285,14 @@ a{
    
    
 }
-#section .car img{
+#section1 .car img{
     width: 100%;
-    height: 100%;
-    
-   
+    height: 100%;  
 }
- 
+#section1 .car li .car_text{
+    margin:100px 0 0 150px;
+    text-shadow: black 0px 0px 5px;
+}   
  
  
 
@@ -302,7 +321,7 @@ a{
     width: 100%;
     height: 880px;
     margin: 0 auto;
-  
+    transform: translateY(150px); transition: all 3s; opacity: 0;
 }
 .middle{
     width: 1200px;
@@ -321,13 +340,28 @@ a{
 #section3 .s3_title{
     font-size: 45px;
 }
-
+#section3 .learn_more{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(226, 226, 226);
+    border: none;
+    border-radius: 100px;
+    color:rgb(18, 18, 119);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#section3 .learn_more:hover{
+    background-color: rgb(168, 168, 197);
+    transform: scale(0.93);
+}
 
 #section4{
     width: 100%;
     height: 1240px;
     margin:0 auto;
-    
+    transform: translateY(150px); transition: all 2s; opacity: 0;
 }
 
 #section4 .s4_banner{
@@ -414,7 +448,7 @@ a{
     width: 100%;
     height: 700px;
     margin: 0 auto;
-  
+    transform: translateY(150px); transition: all 2s; opacity: 0;
 }
 
 .kia_news
