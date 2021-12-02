@@ -7,8 +7,9 @@
     <title>KIA</title>
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/common.css">
+    <link rel="stylesheet" type="text/css" href="CSS/media.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-    
+    <script src="https://kit.fontawesome.com/bb8e35ce92.js" crossorigin="anonymous"></script>
 </head>
 <body>
    
@@ -19,7 +20,9 @@
 
              
             </div>
-    
+            <a class="ham" href="#"> <i class="fas fa-bars"></i></a>
+           
+            
             <nav class="navigation">
                 <ul class="list">
                     <li><a href="#">차량</a></li>
@@ -27,9 +30,21 @@
                     <li><a href="#">체험센터</a></li>
                     <li><a href="#">이벤트</a></li>
                     <li><a href="#">고객센터</a></li>
+                  
                 </ul>
             </nav>
         </div>
+        <nav class="navigation2">
+            <ul class="list2">
+                <li><a href="#">차량</a></li>
+                <li><a href="#">구매정보</a></li>
+                <li><a href="#">체험센터</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">고객센터</a></li>
+                
+            </ul>
+          
+        </nav>
     </header>
 
 
@@ -364,7 +379,19 @@
     });
 });
 
+    $(function(){
+        $('.ham').click(function(){
+            $('.navigation2').slideToggle();
+        });
+    });
 
+    $(window).resize(function () {
+
+     if (window.innerWidth > 800);
+        $('.navigation2').hide();
+            
+    });
     </script>
-</body>
-</html>
+    </body>
+    
+    </html>
