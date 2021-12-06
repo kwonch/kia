@@ -22,7 +22,9 @@ a{
 }
 
 
-
+.ham{
+    display: none;
+}
 
 #slide{
     width: 100%;
@@ -303,6 +305,9 @@ a{
     background: url("../main_img/background_1.jpg") no-repeat center;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
   
 }
@@ -312,7 +317,7 @@ a{
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 2em;
-    padding-top:250px;
+  
    
 }
 
@@ -384,8 +389,8 @@ a{
     transform: translateY(150px); transition: all 2s; opacity: 0;
 }
 
-.kia_news
-{
+.kia_news{
+
     width: 1200px;
     height: 605px;
   
