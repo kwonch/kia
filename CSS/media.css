@@ -730,8 +730,9 @@
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        padding-left: 5%;
+       
         padding-top:3%;
+        overflow: hidden;
     }
   
     
