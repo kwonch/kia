@@ -29,6 +29,7 @@
         cursor: pointer;
         color:white;
         display: block;
+        padding-right: 3%;
       
         
     }
@@ -724,12 +725,12 @@
     
     
     footer .footer_last{
-        width: 100%;
+        width: 90%;
         height: auto;   
       flex-direction: column-reverse;
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+       
        
         padding-top:3%;
         overflow: hidden;
