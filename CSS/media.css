@@ -412,6 +412,9 @@
 
 
 @media (min-width:769px ) and (max-width:1199px){
+    #head .navigation2 .list2{
+        display: none;
+    }
     #head{
         width: 100%;
         height: auto;
@@ -424,6 +427,7 @@
         width:100%;
         height: auto;
         padding-bottom: 5%;
+        padding-top: 5%;
     }
     #slide .slide_img{
         width:50%;
@@ -446,6 +450,293 @@
     #head .navigation2{
         display: none;
     }
+    #section1{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+       
+        overflow: hidden;
+        position: relative;
+        transform: translateY(150px); 
+        transition: all 2s; opacity: 0;         
+    }
+    #section1 .section1_contants{
+        width:100%;
+        height: auto;
+        margin:0 auto;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    #section1 .car{
+        width: 600vw;
+        height: auto;
+        border-radius: 50px;
+       
+        display: flex;
+        flex-flow:row nowrap;
+    
+    }
+    #section1 .car li{
+        width: 100vw;
+        height: 50vh;
+        float:left;
+        margin:0 auto;
+        color:white;
+        
+        font-weight: bold;
+        
+    }
+    #section1 .car img{
+        width: 100vw;
+        height:50vh;  
+       
+    }
+    #section1 .car li .car_text{
+        font-size: 18px;
+        text-shadow: black 0px 0px 5px;
+        margin:30px 0px 0px 20px;
+    }   
+    #section1 .button {
+       
+       
+        display: block;
+        
+      
+        line-height: 40px;
+ 
+        cursor: pointer;
+        height: 50px;
+      
+
+
+    }
+    #section1 .button .btn1 img {
+     
+        top:50%;
+        display: block;
+        line-height: 40px;
+        cursor: pointer;
+        height: 50px;
+        transform: translateY(-100%);
+    }
+    
+    #section1 .button .btn2 img {
+        top:50%;
+        display: block;   
+        line-height: 40px;    
+        cursor: pointer;
+        height: 50px;
+        margin-left:auto;
+        transform: translateY(-90%);
+        
+       
+    }
+    #section3{
+        width: 100%;
+        height:auto;
+        transform: translateY(150px); 
+        transition: all 3s; opacity: 0;
+    }
+    .middle{
+        width:100%;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #section3 .infor {
+        font-size: 15px;
+        line-height: 30px;
+        color:#2e2e2e;
+    }
    
+    #section3 .carimg{
+        width: 80%;
+        height: auto;
+    }
+    #section3 .carimg img{
+        width:100%;
+        height: auto;
+    }
+    #section3 .textbox{
+        width: 100%;
+        height: auto;
+    }
+    #section4{
+        width: 100%;
+        height:auto;
+      
+    }
+    #section4 .s4_bottom{
+        width:100%;
+        height: auto;
+      
+    }
+    #section4 .s4_box{
+        width:80%;
+        height: auto;
+        margin-top: 3%;
+    }
+    
+    
+    #section4 .s4_bo{
+        width:100%;
+     
+    }
+    #section4 .s4_bo2{
+        width: 100%;
+       
+    }
+    
+    #section4 .s4_text{
+        width: 100%;
+        height: auto;
+    }
+    
+   
+    
+    #section4 .line{
+        width: 90%;
+       
+    }
+    #section5{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        transform: translateY(150px); transition: all 2s; opacity: 0;
+    }
+    
+    .kia_news{
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+        cursor:pointer;
+    }
+    
+    .kia_news1{
+        width: 80%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+    #section5 .kia_news1_photo{
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+     
+    }
+    
+    #section5 .kia_news1_title{
+        padding: 25px 25px 0px 25px;
+    }
+    #section5 .kia_news1_text{
+        padding: 0px 25px 0px 25px;
+        line-height: 1.7em;
+    }
+    
+    
+    .kia_news2{
+        width: 80%;
+        height: auto;
+        margin-bottom: 5%;
+        border-radius: 50px;
+        box-shadow: 0 5px 15px 0px #cccccc;
+        display: flex;
+        flex-flow: column wrap;
+        transition:all 0.5s ease;
+    }
+    #section5 .kia_news2_photo2{
+        width: 100%;
+        height:300px ;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 50px;
+    
+    }
+    
+    #section5 .kia_news2_photo3{
+       
+        width: 100%;
+        height:300px ;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 50px;
+      
+    }
+    #section5 .kia_news2_text_box{
+        width: 80%;
+        
+        padding:0px 25px 0px 25px;
+    }
+    #section5 .kia_news2_title{
+        font-size: 23px;
+    }
+    #section5 .kia_news2_text2{
+        line-height: 1.7em;
+        font-size: 16px;
+    }
+    footer{
+        width: 100%;
+        height:auto;
+    }
+    
+   
+    footer .line2{
+        width: 90%;
+     
+    }
+    
+    
+    footer .footer_in{
+       max-width:100%;
+        height: auto;
+    
+    }
+    
+    footer .footer_menu{
+        width:50%;  
+        padding-left: 5%;
+    }
+    footer .footer_menu li{
+        font-size: 20px;
+       
+    }
+    
+    
+    
+    footer .footer_car{
+        display: flex; 
+        justify-content: space-evenly;
+        width: 100%;
+        padding-right: 5%;
+    }
+    
+   footer .footer_in3{
+       width: 65%;
+       height: auto;
+   }
+    
+
+    
+    
+    footer .footer_last{
+        width: 100%;
+        height: auto;   
+      flex-direction: column-reverse;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-top:3%;
+    }
+  
+    
+    
+  
+    
 }
 
