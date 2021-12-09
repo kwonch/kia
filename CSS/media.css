@@ -208,6 +208,10 @@
     }
     #section3 .textbox{
         padding-bottom: 3%;
+        text-align: center;
+    }
+    #section3 .learn_more{
+        text-align: center;
     }
     #section3 .carimg {
         width:80%;
