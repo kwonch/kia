@@ -229,7 +229,7 @@
     #section4 .s4_bottom{
         width: 100%;
         height: auto; 
-        margin:0 auto;          
+                 
     }
     
     #section4 .s4_box{
@@ -563,6 +563,7 @@
     #section3 .textbox{
         width: 100%;
         height: auto;
+        margin-left:5%
     }
     #section4{
         width: 100%;
@@ -583,11 +584,11 @@
     
     #section4 .s4_bo{
         width:100%;
-     
+        margin-right: 3%;
     }
     #section4 .s4_bo2{
         width: 100%;
-       
+        margin-right: 3%;
     }
     
     #section4 .s4_text{
