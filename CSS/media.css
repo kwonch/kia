@@ -209,6 +209,14 @@
     #section3 .textbox{
         padding-bottom: 3%;
     }
+    #section3 .carimg {
+        width: 100%;
+        height: auto;
+    }
+    #section3 .carimg img{
+        width: 100%;
+        height: auto;
+    }
     #section4{
         width: 100%;
         height:auto;
@@ -742,4 +750,90 @@
   
     
 }
+@media (min-width:1200px ) and (max-width:1500px){
 
+ #section1{
+        width:100%;
+        height:auto;
+        margin:0 auto;
+       
+        overflow: hidden;
+        position: relative;
+        transform: translateY(150px); 
+        transition: all 2s; opacity: 0;         
+    }
+    #section1 .section1_contants{
+        width:100%;
+        height: auto;
+        margin:0 auto;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    #section1 .car{
+        width: 600vw;
+        height: auto;
+        border-radius: 50px;
+       
+        display: flex;
+        flex-flow:row nowrap;
+    
+    }
+    #section1 .car li{
+        width: 100vw;
+        height: 50vh;
+        float:left;
+        margin:0 auto;
+        color:white;
+        
+        font-weight: bold;
+        
+    }
+    #section1 .car img{
+        width: 100vw;
+        height:50vh;  
+       
+    }
+    #section1 .car li .car_text{
+        font-size: 18px;
+        text-shadow: black 0px 0px 5px;
+        margin:30px 0px 0px 20px;
+    }   
+    #section1 .button {
+       
+       
+        display: block;
+        
+      
+        line-height: 40px;
+ 
+        cursor: pointer;
+        height: 50px;
+      
+
+
+    }
+    #section1 .button .btn1 img {
+     
+        top:50%;
+        display: block;
+        line-height: 40px;
+        cursor: pointer;
+        height: 50px;
+        transform: translateY(-100%);
+    }
+    
+    #section1 .button .btn2 img {
+        top:50%;
+        display: block;   
+        line-height: 40px;    
+        cursor: pointer;
+        height: 50px;
+        margin-left:auto;
+        transform: translateY(-90%);
+        
+       
+    }
+
+
+}

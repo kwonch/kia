@@ -442,7 +442,7 @@ a{
 #section5 .kia_news2_photo2{
     background:url("../main_img/news2.jpg")no-repeat center;
     background-size: cover;
-    background-size: center;
+    background-position: center;
     width: 260px;
     height:100% ;
     border-top-left-radius: 50px;
@@ -453,7 +453,7 @@ a{
 #section5 .kia_news2_photo3{
     background:url("../main_img/news3.jpg")no-repeat center;
     background-size: cover;
-    background-size: center;
+    background-position: center;
     width: 260px;
     height:100% ;
     border-top-left-radius: 50px;
