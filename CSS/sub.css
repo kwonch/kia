@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+#head {
+    background:black;
+}
+
 #sub_background{
     width: 100%;
     background:url("../sub_img/EV_background.jpg") no-repeat center;
@@ -23,6 +28,128 @@
 }
 
 #sub_background .back_title{
+    font-size:80px;
+    letter-spacing:0.05em;
+}
+
+#sub_background .back_in{
+    font-size:25px;
+
+}
+
+#sub_section1{
+    width: 100%;
+    height:100%;
+    
+   
+}
+#sub_section1  .sub_st1_title{
     font-size: 50px;
-    letter-spacing:0.2em;
+    margin: 0;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+#sub_section1 .sub_st1_background{
+    background: url("../sub_img/EV_background2.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0 auto;
+}
+
+#sub_section1 .st1_text{
+  width: 320px;
+  height: 230px;
+  background-color: rgba(255, 255, 255, 0.521);
+  text-align: center;
+  padding-bottom: 5%;
+ 
+}
+
+#sub_section1 .st1_text_title{
+   font-size: 60px;
+   font-weight: bold;
+   margin-bottom: -0%;
+  
+  
+}
+#sub_section1 .line{
+    border:1px solid #c7c7c769;
+    width: 50%;
+    margin: 0 auto;
+  
+}
+#sub_section1 .st1_text_meaning{
+    font-size: 20px;
+   
+}
+#sub_section1 .plus{
+    font-size: 100px;
+    color:rgba(75, 192, 147, 0.384);
+}
+
+#sub_section2{
+    width: 100%;
+    height:1600px;
+    
+}
+#sub_section2 .sub_st2_title{
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+#sub_section2 .sub_st2_background{
+    background: url("../sub_img/ev6.jpg")no-repeat center;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    margin:0 auto;
+}
+
+#sub_section2 .background_in{
+    font-size: 25px;
+    padding:30px 0px 0px 30px;
+    color: white;
+   text-shadow: 0px 0px 5px black;
+}
+#sub_section2 strong{
+    font-size: 35px;
+}
+#sub_section2 .sub_st2_infor{
+    width: 1200px;
+    height: 300px;
+  
+    margin:0 auto;
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sub_section2 .sub2_st2_infor2{
+    width: 370px;
+    height: 210px;
+    text-align:center;
+    
+}
+#sub_section2  .icon{
+    font-size:60px;
+    color:black;
+    display: inline-block;
+  
+}
+#sub_section2 .infor2_contents{
+    font-size: 18px;
+
+}
+#sub_section2 .line2{
+    border-right: 5px solid black;
+   
 }
