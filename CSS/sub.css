@@ -124,7 +124,7 @@
     font-size: 35px;
 }
 #sub_section2 .sub_st2_infor{
-    width: 1200px;
+    width: 1300px;
     height: 300px;
   
     margin:0 auto;
@@ -135,9 +135,17 @@
 }
 #sub_section2 .sub2_st2_infor2{
     width: 370px;
-    height: 210px;
-    text-align:center;
+    height: 250px;
+    text-align:center;  
+}
+#sub_section2 .sub2_st2_infor2:nth-of-type(1){
+    border-right: 1px solid #767676;
+    padding-right: 7%;
     
+}
+#sub_section2 .sub2_st2_infor2:nth-of-type(2){
+    border-right: 1px solid #767676;
+ 
 }
 #sub_section2  .icon{
     font-size:60px;
@@ -148,8 +156,4 @@
 #sub_section2 .infor2_contents{
     font-size: 18px;
 
-}
-#sub_section2 .line2{
-    border-right: 5px solid black;
-   
 }

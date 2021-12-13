@@ -35,6 +35,9 @@ a{
     z-index: 1;
    
 }
+#head .ham{
+    display: none;
+}
 .top{ 
      display: flex;    
       justify-content: space-evenly;
