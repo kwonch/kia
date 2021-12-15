@@ -47,8 +47,8 @@
     font-size: 50px;
     margin: 0;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 #sub_section1 .sub_st1_background{
     background: url("../sub_img/EV_background2.jpg") no-repeat center;
@@ -105,8 +105,8 @@
     font-size: 50px;
     margin: 0;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom:100px;
+    padding-top: 80px;
+    
 }
 #sub_section2 .sub_st2_background{
     background: url("../sub_img/ev6.jpg")no-repeat center;
