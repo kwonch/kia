@@ -4,17 +4,8 @@
     #head{
         width: 100%;
         height: auto;
-       
-        
         border-bottom: solid 1px none;
         box-shadow: #767676 0px 0px 10px 0px;
-        overflow: hidden;
-      background: url("../main_img/media_bakcground.jpg") no-repeat center;
-       background-position: center;
-       background-size: cover;
-       position: relative;
-        z-index: 1;
-       
     }
     .top{ 
         display: flex;    
@@ -24,14 +15,11 @@
    }
   
     #head .ham{
-       
         font-size: 30px;
         cursor: pointer;
         color:white;
         display: block;
         padding-right: 3%;
-      
-        
     }
     #head .logo img{
         height:70px; 
